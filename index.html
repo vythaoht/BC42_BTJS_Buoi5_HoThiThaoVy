@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài tập JS buổi 5</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>
+        <h3>BT1: Kết quả Đậu/Rớt của sinh viên</h3>
+        <input id="benchMark" placeholder="Nhập điểm chuẩn">
+        <input id="subject1" placeholder="Điểm môn 1">
+        <input id="subject2" placeholder="Điểm môn 2">
+        <input id="subject3" placeholder="Điểm môn 3">
+        <select id="area">
+            <option value="X">Không</option>
+            <option value="A">Khu vực A</option>
+            <option value="B">Khu vực B</option>
+            <option value="C">Khu vực C</option>
+        </select>
+        <select id="type">
+            <option value="0">Không ưu tiên</option>
+            <option value="1">Đối tượng 1</option>
+            <option value="2">Đối tượng 2</option>
+            <option value="3">Đối tượng 3</option>
+        </select>
+        <button id="result" class="btn btn-success my-3">Kết quả</button>
+        <span id="showResults"></span>
+    </div>
+
+    <div>
+        <h3>BT2: Tính tiền điện</h3>
+        <input id="name" placeholder="Tên chủ hộ">
+        <input id="consumption" placeholder="Số điện tiêu thụ (KW)">
+        <button id="payment" class="btn btn-success">Thanh toán</button>
+        <span id="showPayment"></span>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
